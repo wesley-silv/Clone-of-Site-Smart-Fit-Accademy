@@ -1,0 +1,49 @@
+@use '../../styles/variables'
+
+
+.header
+  box-shadow: 3px 3px 8px hsl(179,83% ,45% )
+  padding: 1em .5em
+  display: flex
+  align-items: center
+  justify-content: space-between
+
+  h2
+    font-family: "Dancing Script"
+    margin: .5em 1em
+    font-size: 24px
+    font-weight: 800
+    span
+      color: #daa530
+      font-size: 26px
+      border-bottom: solid 4px
+      border-radius: 100px
+      padding: 0 0 5px
+    a
+      text-decoration: none
+      color: variables.$turquese-color
+
+  .start_button
+     color: variables.$white-color
+     background-color: variables.$red-color
+     border-radius: 50px
+     padding: 10px 
+     border: none
+     font-size: 18px
+     font-family: variables.$dancing-script
+     width: 110px
+     &:hover
+      color: variables.$red-color
+      background-color: variables.$white-color
+      border: solid 2px variables.$red-color
+      cursor: pointer
+
+  .menu_hamburger
+    font-size: 40px
+    color: variables.$turquese-color
+    &:hover
+      cursor: pointer
+
+
+
+    
